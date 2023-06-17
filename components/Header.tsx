@@ -6,6 +6,7 @@ import { Cross2Icon, HamburgerMenuIcon } from "@radix-ui/react-icons";
 import Button from "./Button";
 import Link from "next/link";
 
+
 export default function Header() {
   const [open, setOpen] = useState(false);
 
@@ -20,7 +21,7 @@ export default function Header() {
   }, [open]);
 
   return (
-    <header className="inset-0 sticky z-40 bg-black">
+    <header className="inset-0 fixed h-16 z-40 bg-black">
       {/* Mobile Nav Menu */}
 
       <div className="lg:hidden h-14 bg-black inset-0 fixed z-50">
@@ -47,7 +48,7 @@ export default function Header() {
         </Wrapper>
 
         {open && (
-          <ul className="absolute top-14 transition-opacity duration-300 w-full mobile-nav  flex flex-col items-center shadow-lg gap-y-5 py-7 bg-black bg-opacity-80 backdrop-blur">
+          <ul className="absolute top-14 duration-[5000ms] w-full mobile-nav flex flex-col items-center shadow-lg gap-y-8 py-7 bg-black transition ease-in-out bg-opacity-70 border-b-white border-b backdrop-blur-md">
             <li className="text-base text-white font-normal ">
               <Link href={"https://www.youtube.com/"}>About</Link>
             </li>
@@ -61,10 +62,13 @@ export default function Header() {
               <Link href={"https://www.youtube.com/"}>Skills</Link>
             </li>
             <li className="text-base text-white font-normal ">
-              <Link href={"https://www.youtube.com/"}>Resume</Link>
+              <Link href={"https://www.youtube.com/"}>Learning Lab</Link>
             </li>
             <li className="text-base text-white font-normal ">
-              Button
+              <Link href={"https://www.youtube.com/"}>Resume</Link>
+            </li>
+            <li>
+            <Button href="https://www.youtube.com/" >Contact Me</Button>
             </li>
           </ul>
 
@@ -76,37 +80,38 @@ export default function Header() {
 
 
 
-      <div className="smbil:hidden mmbil:hidden lmbil:hidden tab:hidden laptop:flex laptop:items-center laptop:justify-between laptop:max-w-[980px] laptop:mx-auto ">
+      <div className="smbil:hidden h-16 mmbil:hidden lmbil:hidden tab:hidden laptop:flex laptop:items-center laptop:justify-between laptop:max-w-[980px] laptop-lg:max-w-[1180px] 4k:max-w-[2000px] 4k:h-36 laptop:mx-auto ">
 
 
 
-        <div className="relative h-28 w-28">
+        <div className="relative h-28 w-28 4k:w-64 4k:h-64">
           <Image src={"maverick-logo.svg"} fill={true} alt="Maverick Logo" />
         </div>
 
 
-        <ul className="laptop:flex ">
-            <li className="text-base text-white font-normal ">
+        <ul className="laptop:flex gap-x-8 ">
+            <li className="text-base 4k:text-3xl text-white font-normal ">
               <Link href={"https://www.youtube.com/"}>About</Link>
             </li>
-            <li className="text-base text-white font-normal ">
+            <li className="text-base 4k:text-3xl text-white font-normal ">
               <Link href={"https://www.youtube.com/"}>Portfolio</Link>
             </li>
-            <li className="text-base text-white font-normal ">
+            <li className="text-base 4k:text-3xl text-white font-normal ">
               <Link href={"https://www.youtube.com/"}>Services</Link>
             </li>
-            <li className="text-base text-white font-normal ">
+            <li className="text-base 4k:text-3xl text-white font-normal ">
               <Link href={"https://www.youtube.com/"}>Skills</Link>
             </li>
-            <li className="text-base text-white font-normal ">
+            <li className="text-base 4k:text-3xl text-white font-normal ">
+              <Link href={"https://www.youtube.com/"}>Learning Lab</Link>
+            </li>
+            <li className="text-base 4k:text-3xl text-white font-normal ">
               <Link href={"https://www.youtube.com/"}>Resume</Link>
             </li>
         </ul>
 
 
-        <div className="text-white">
-          Button
-        </div>
+          <Button href="https://www.youtube.com/" >Contact Me</Button>
 
 
 
