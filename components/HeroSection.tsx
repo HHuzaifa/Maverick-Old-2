@@ -18,7 +18,7 @@ export default function HeroSection () {
             <div>
                 <h1 className="text-white">Hi there!</h1>
                 <h2 className="text-white">I'm a Full Stack | Jamstack Web App Developer</h2>
-                <div>
+                <div className="flex justify-around">
                 <Button href="https://www.youtube.com/" >Contact Me</Button>
                 <Button href="https://www.youtube.com/" >Download Resume</Button>
                 </div>
