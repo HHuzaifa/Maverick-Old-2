@@ -7,8 +7,8 @@ export default function HeroSection () {
 
 
 
-            <div className="max-w-lg">
-                <Image src={"/Full Stack Developer and Machine Learning Engineer.png"} width={800} height={700} alt="Hero Image" />
+            <div className="">
+                <Image src={"/Full-Stack-Developer-and-Machine-Learning-Engineer.png"} width={800} height={700} alt="Hero Image" />
             </div>
 
 

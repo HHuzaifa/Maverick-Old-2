@@ -53,13 +53,13 @@ export default function Header() {
               <Link href={"https://www.youtube.com/"}>About</Link>
             </li>
             <li className="text-base text-white font-normal ">
-              <Link href={"https://www.youtube.com/"}>Portfolio</Link>
+              <Link href={"https://www.youtube.com/"}>Skills</Link>
             </li>
             <li className="text-base text-white font-normal ">
               <Link href={"https://www.youtube.com/"}>Services</Link>
             </li>
             <li className="text-base text-white font-normal ">
-              <Link href={"https://www.youtube.com/"}>Skills</Link>
+              <Link href={"https://www.youtube.com/"}>Portfolio</Link>
             </li>
             <li className="text-base text-white font-normal ">
               <Link href={"https://www.youtube.com/"}>Learning Lab</Link>
@@ -94,13 +94,13 @@ export default function Header() {
               <Link href={"https://www.youtube.com/"}>About</Link>
             </li>
             <li className="text-base 4k:text-3xl text-white font-normal ">
-              <Link href={"https://www.youtube.com/"}>Portfolio</Link>
+              <Link href={"https://www.youtube.com/"}>Skills</Link>
             </li>
             <li className="text-base 4k:text-3xl text-white font-normal ">
               <Link href={"https://www.youtube.com/"}>Services</Link>
             </li>
             <li className="text-base 4k:text-3xl text-white font-normal ">
-              <Link href={"https://www.youtube.com/"}>Skills</Link>
+              <Link href={"https://www.youtube.com/"}>Portfolio</Link>
             </li>
             <li className="text-base 4k:text-3xl text-white font-normal ">
               <Link href={"https://www.youtube.com/"}>Learning Lab</Link>
