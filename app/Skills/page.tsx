@@ -3,8 +3,9 @@ import Image from "next/image";
 export default function Skills() {
   return (
     <section className="w-full h-full py-28 flex flex-col items-center justify-center mx-auto smbil:max-w-[290px] mmbil:max-w-[340px]  lmbil:max-w-[380px] tab:max-w-[670px] laptop:max-w-[980px] laptop-lg:max-w-[1180px] 4k:max-w-[2000px]">
-      <div className="flex flex-col pb-36 text-white">
-        <h1>My Tech Arsenals: AI, Web Apps, and Beyond</h1>
+      <div className="flex flex-col text-center pb-36 text-white">
+        <h1>My Tech Arsenal</h1>
+        <h2>AI, Web Apps, and Beyond</h2>
       </div>
 
       <div className="flex flex-col justify-center items-center">
@@ -132,10 +133,10 @@ export default function Skills() {
               alt="supabase icon"
             />
             <Image
-              src={"/skills/strapiii.png"}
+              src={"/skills/strapii.png"}
               width={200}
               height={200}
-              alt="strapiii icon"
+              alt="strapi icon"
             />
             <Image
               src={"/skills/sanity.png"}
