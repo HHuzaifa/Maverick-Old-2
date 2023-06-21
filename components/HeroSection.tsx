@@ -3,7 +3,7 @@ import Button from "./Button"
 
 export default function HeroSection () {
     return (
-        <section className="w-full h-full flex flex-col tab:flex-row-reverse smbil:justify-center smbil:items-center mx-auto smbil:max-w-[290px] mmbil:max-w-[340px]  lmbil:max-w-[380px] tab:max-w-[670px] laptop:max-w-[980px] laptop-lg:max-w-[1180px] 4k:max-w-[2000px] ">
+        <section className="w-full h-full py-28 flex flex-col tab:flex-row-reverse smbil:justify-center smbil:items-center mx-auto smbil:max-w-[290px] mmbil:max-w-[340px]  lmbil:max-w-[380px] tab:max-w-[670px] laptop:max-w-[980px] laptop-lg:max-w-[1180px] 4k:max-w-[2000px] ">
 
 
 

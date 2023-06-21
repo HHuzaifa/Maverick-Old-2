@@ -9,12 +9,12 @@ interface ServiceCardProps {
 
 const ServiceCard: FC<ServiceCardProps> = ({ icon, title, button }) => {
   return (
-    <div className="flex flex-col justify-center items-center  bg-gradient-to-tl from-[#130428] via-[#38126D] to-[#261045] rounded-xl">
-      <div className="smbil:p-14 mmbil:p-16 lmbil:p-20 laptop-lg:p-24">
-        <div className="relative w-12 h-12">
+    <div className="flex flex-col justify-center items-center border-4 border-[#CCCCCC] bg-gradient-to-tl from-[#130428] via-[#38126D] to-[#261045] rounded-xl">
+      <div className="smbil:px-8 smbil:py-10 mmbil:px-10 mmbil:py-10 lmbil:px-12 lmbil:py-10 laptop:px-24 laptop:py-10 laptop-lg:px-24 laptop-lg:py-16 flex flex-col justify-center items-center">
+        <div className="relative w-32 h-28">
           <Image src={icon} fill={true} alt="service icon" />
         </div>
-        <h3 className="text-white">{title}</h3>
+        <h3 className="text-white pt-5 pb-2 text-center overflow-hidden whitespace-nowrap overflow-ellipsis">{title}</h3>
         {button}
       </div>
     </div>
