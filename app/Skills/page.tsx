@@ -22,7 +22,7 @@ export default function Skills() {
           landscape.
         </p>
 
-        <div className="border-4 border-slate-900 p-8 tab:p-10 laptop:px-20 laptop:py-16 bg-gradient-to-br from-[#130428] via-[#38126D] to-[#261045] rounded-xl">
+        <div className="border-4 border-[#CCCCCC] p-8 tab:p-10 laptop:px-20 laptop:py-16 bg-gradient-to-br from-[#130428] via-[#38126D] to-[#261045] rounded-xl">
           <div className="grid smbil:grid-cols-5 tab:grid-cols-8 smbil:gap-5 tab:gap-7 laptop:gap-10 max-w-7xl">
             <Image
               src={"/skills/nextJs.png"}

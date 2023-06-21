@@ -6,7 +6,7 @@ export default function About() {
     <section className="w-full h-full justify-center items-center flex flex-col">
       <HeroSection />
 
-      <div className="flex pt-16 smbil:flex-col tab:flex-row  smbil:justify-center smbil:items-center mx-auto smbil:max-w-[290px] mmbil:max-w-[340px]  lmbil:max-w-[380px] tab:max-w-[670px] laptop:max-w-[980px] laptop-lg:max-w-[1180px] 4k:max-w-[2000px]">
+      <div className="flex pt-28 smbil:flex-col tab:flex-row  smbil:justify-center smbil:items-center mx-auto smbil:max-w-[290px] mmbil:max-w-[340px]  lmbil:max-w-[380px] tab:max-w-[670px] laptop:max-w-[980px] laptop-lg:max-w-[1180px] 4k:max-w-[2000px]">
         <div>
           <Image
             src={"/Full Stack Developer Github.png"}
