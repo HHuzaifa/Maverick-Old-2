@@ -16,6 +16,11 @@ module.exports = {
         'laptop-lg': '1440px',
         '4k': '2560px',
     },
+    fontFamily: {
+      headingFont: ['Geologica', "sans-serif"],
+      linkFont: ['Rubik', "sans-serif"],
+      paraFont: ['Open Sans', "sans-serif"]
+    }
   },
   plugins: [],
 },
