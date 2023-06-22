@@ -14,6 +14,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="bg-black">
+        <div className="background-blobs">
+          <div className="blob-1"></div>
+          <div className="blob-2"></div>
+        </div>
         <Header />
         {children}
       </body>

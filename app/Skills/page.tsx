@@ -2,14 +2,14 @@ import Image from "next/image";
 
 export default function Skills() {
   return (
-    <section className="w-full h-full py-28 flex flex-col items-center justify-center mx-auto smbil:max-w-[290px] mmbil:max-w-[340px]  lmbil:max-w-[380px] tab:max-w-[670px] laptop:max-w-[980px] laptop-lg:max-w-[1180px] 4k:max-w-[2000px]">
+    <section id="SkillsSection" className="w-full h-full py-28 flex flex-col items-center justify-center mx-auto smbil:max-w-[290px] mmbil:max-w-[340px]  lmbil:max-w-[380px] tab:max-w-[670px] laptop:max-w-[980px] laptop-lg:max-w-[1180px] 4k:max-w-[2000px]">
       <div className="flex flex-col text-center pb-36 text-white">
-        <h1>My Tech Arsenal</h1>
-        <h2>AI, Web Apps, and Beyond</h2>
+        <h1 className="smbil:text-3xl font-headingFont mmbil:text-4xl laptop:text-6xl font-extrabold">My Tech Arsenal</h1>
+        <h2 className="smbil:text-lg laptop:text-2xl pt-3 font-headingFont">AI, Web Apps, and Beyond</h2>
       </div>
 
       <div className="flex flex-col justify-center items-center">
-        <p className="text-white text-justify pb-14">
+        <p className="font-paraFont text-base text-gray-200 text-justify pb-14">
           With proficiency in a diverse range of programming languages, web
           frameworks, databases, and headless CMSs, I am equipped to conquer
           technological frontiers. Leveraging version control, I ensure seamless
