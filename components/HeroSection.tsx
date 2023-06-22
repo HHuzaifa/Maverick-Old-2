@@ -23,7 +23,7 @@ export default function HeroSection () {
             <div className="flex flex-col items-start">
                 <h1 className="text-white text-2xl font-semibold pb-8 font-headingFont">Hi there!</h1>
                 <h2 className="text-white text-4xl  font-extrabold font-headingFont   ">I'm a Full Stack | Jamstack Web App Developer</h2>
-                <h2 className="text-white text-2xl font-extrabold py-2 font-headingFont">&apos</h2>
+                <h2 className="text-white text-2xl font-extrabold py-2 font-headingFont">and</h2>
                 <h2 className="text-white text-4xl pb-5 font-extrabold font-headingFont   ">Data Science Wizard</h2>
                 <div className="flex justify-around">
                 <Button href="https://www.youtube.com/" >Contact Me</Button>
