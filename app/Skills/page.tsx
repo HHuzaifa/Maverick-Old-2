@@ -2,10 +2,17 @@ import Image from "next/image";
 
 export default function Skills() {
   return (
-    <section id="SkillsSection" className="w-full h-full py-28 flex flex-col items-center justify-center mx-auto smbil:max-w-[290px] mmbil:max-w-[340px]  lmbil:max-w-[380px] tab:max-w-[670px] laptop:max-w-[980px] laptop-lg:max-w-[1180px] 4k:max-w-[2000px]">
-      <div className="flex flex-col text-center pb-36 text-white">
-        <h1 className="smbil:text-3xl font-headingFont mmbil:text-4xl laptop:text-6xl font-extrabold">My Tech Arsenal</h1>
-        <h2 className="smbil:text-lg laptop:text-2xl pt-3 font-headingFont">AI, Web Apps, and Beyond</h2>
+    <section
+      id="SkillsSection"
+      className="w-full h-full py-28 flex flex-col items-center justify-center mx-auto smbil:max-w-[290px] mmbil:max-w-[340px]  lmbil:max-w-[380px] tab:max-w-[670px] laptop:max-w-[980px] laptop-lg:max-w-[1180px] 4k:max-w-[2000px]"
+    >
+      <div className="flex flex-col text-center pb-28 text-white">
+        <h1 className="smbil:text-3xl font-headingFont mmbil:text-4xl laptop:text-6xl font-extrabold">
+          My Tech Arsenal
+        </h1>
+        <h2 className="smbil:text-lg laptop:text-2xl pt-3 font-headingFont">
+          AI, Web Apps, and Beyond
+        </h2>
       </div>
 
       <div className="flex flex-col justify-center items-center">

@@ -10,13 +10,14 @@ export default function About() {
         <div>
           <Image
             src={"/Full Stack Developer Github.png"}
+            loading="lazy"
             width={1400}
             height={1300}
             alt="About Image"
           />
         </div>
 
-        <div className="text-white tab:ml-10 laptop:ml-16 smbil:text-center tab:text-justify smbil:py-10">
+        <div className="text-white tab:ml-10 laptop:ml-16 smbil:text-justify tab:text-justify smbil:py-10">
           <h1 className="pb-5 text-3xl font-bold font-headingFont">Welcome!</h1>
           <p className="font-paraFont text-base text-gray-200">
             As a Full Stack | Jamstack Web App Developer, I have 2.5 years of

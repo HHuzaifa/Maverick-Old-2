@@ -23,7 +23,7 @@
   background: radial-gradient(circle, #ff00b7, #00eeff);
   opacity: 0.5;
   filter: blur(40px);
-  animation: blobAnimation 4s ease-in-out infinite alternate;
+  animation: blobAnimation 2s ease-in-out infinite alternate;
 }
 
 .blob-2 {
@@ -36,7 +36,7 @@
   background: radial-gradient(circle, #00eeff, #ff00b7);
   opacity: 0.5;
   filter: blur(40px);
-  animation: blobAnimation 5s ease-in-out infinite alternate;
+  animation: blobAnimation 3s ease-in-out infinite alternate;
 }
 
 @keyframes blobAnimation {
@@ -63,3 +63,7 @@
     height: 200px;
   }
 }
+
+
+
+
