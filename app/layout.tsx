@@ -1,5 +1,6 @@
 import Header from "@/components/Header";
 import "./globals.css";
+import Footer from "@/components/Footer";
 
 export const metadata = {
   title: "Maverick",
@@ -20,6 +21,7 @@ export default function RootLayout({
         </div>
         <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );
