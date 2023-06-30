@@ -1,5 +1,4 @@
 import About from "./About/page";
-import ContactMe from "./ContactMe/page";
 import Portfolio from "./Portfolio/page";
 import Services from "./Services/page";
 import Skills from "./Skills/page";
