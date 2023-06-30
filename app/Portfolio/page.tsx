@@ -10,90 +10,90 @@ export default function Portfolio() {
           imageSrc="/portfolio/apple.png"
           title="Apple"
           ButtonComponent1={
-            <Button href="https://www.youtube.com/">View Project</Button>
+            <Button href="https://apple-next-js-tailwind-css.vercel.app/">View Project</Button>
           }
           ButtonComponent2={
-            <Button href="https://www.youtube.com/">View Code</Button>
+            <Button href="https://github.com/HHuzaifa/Apple-Next.Js-TailwindCSS">View Code</Button>
           }
         />
         <PortfolioCard
           imageSrc="/portfolio/metaversus.png"
           title="Metaversus"
           ButtonComponent1={
-            <Button href="https://www.youtube.com/">View Project</Button>
+            <Button href="https://metaversus-next-js.vercel.app/">View Project</Button>
           }
           ButtonComponent2={
-            <Button href="https://www.youtube.com/">View Code</Button>
+            <Button href="https://github.com/HHuzaifa/Metaversus-Next.Js-TailwindCSS-FramerMotion">View Code</Button>
           }
         />
         <PortfolioCard
           imageSrc="/portfolio/piaic.png"
           title="PIAIC"
           ButtonComponent1={
-            <Button href="https://www.youtube.com/">View Project</Button>
+            <Button href="https://piaic-next-js-tailwind-css.vercel.app/">View Project</Button>
           }
           ButtonComponent2={
-            <Button href="https://www.youtube.com/">View Code</Button>
+            <Button href="https://github.com/HHuzaifa/PIAIC-Next.js-Tailwind-CSS">View Code</Button>
           }
         />
         <PortfolioCard
           imageSrc="/portfolio/pricingUI.png"
           title="Pricing Landing Page"
           ButtonComponent1={
-            <Button href="https://www.youtube.com/">View Project</Button>
+            <Button href="https://pricing-ui-next-js-chakra-ui.vercel.app/">View Project</Button>
           }
           ButtonComponent2={
-            <Button href="https://www.youtube.com/">View Code</Button>
+            <Button href="https://github.com/HHuzaifa/Pricing-UI-Next.js-ChakraUI">View Code</Button>
           }
         />
         <PortfolioCard
           imageSrc="/portfolio/spotify.png"
           title="Spotify"
           ButtonComponent1={
-            <Button href="https://www.youtube.com/">View Project</Button>
+            <Button href="https://spotify-next-js-fawn.vercel.app/">View Project</Button>
           }
           ButtonComponent2={
-            <Button href="https://www.youtube.com/">View Code</Button>
+            <Button href="https://github.com/HHuzaifa/Spotify-Next.Js-TailwindCSS">View Code</Button>
           }
         />
         <PortfolioCard
           imageSrc="/portfolio/panaverse.png"
           title="Panaverse"
           ButtonComponent1={
-            <Button href="https://www.youtube.com/">View Project</Button>
+            <Button href="https://panaverse-dao-next-js-tailwind-css.vercel.app/">View Project</Button>
           }
           ButtonComponent2={
-            <Button href="https://www.youtube.com/">View Code</Button>
+            <Button href="https://github.com/HHuzaifa/Panaverse-DAO-Next.js-Tailwind-CSS">View Code</Button>
           }
         />
         <PortfolioCard
           imageSrc="/coming-soon.jpg"
           title="My Project"
           ButtonComponent1={
-            <Button href="https://www.youtube.com/">View Project</Button>
+            <Button href="https://github.com/HHuzaifa">View Project</Button>
           }
           ButtonComponent2={
-            <Button href="https://www.youtube.com/">View Code</Button>
+            <Button href="https://github.com/HHuzaifa">View Code</Button>
           }
         />
         <PortfolioCard
           imageSrc="/coming-soon.jpg"
           title="My Project"
           ButtonComponent1={
-            <Button href="https://www.youtube.com/">View Project</Button>
+            <Button href="https://github.com/HHuzaifa">View Project</Button>
           }
           ButtonComponent2={
-            <Button href="https://www.youtube.com/">View Code</Button>
+            <Button href="https://github.com/HHuzaifa">View Code</Button>
           }
         />
         <PortfolioCard
           imageSrc="/coming-soon.jpg"
           title="My Project"
           ButtonComponent1={
-            <Button href="https://www.youtube.com/">View Project</Button>
+            <Button href="https://github.com/HHuzaifa">View Project</Button>
           }
           ButtonComponent2={
-            <Button href="https://www.youtube.com/">View Code</Button>
+            <Button href="https://github.com/HHuzaifa">View Code</Button>
           }
         />
       </div>

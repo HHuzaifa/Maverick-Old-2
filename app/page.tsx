@@ -12,8 +12,7 @@ export default function Home() {
       <Skills />
       <Services />
       <Portfolio />
-      <ContactMe />
+
     </main>
   )
 }
-

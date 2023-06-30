@@ -9,33 +9,33 @@ export default function Services() {
         <ServiceCard
           icon={"/services/web-dev.png"}
           title="Custom Web App"
-          button={<Button href="https://www.youtube.com/">Contact Me</Button>}
+          button={<Button href="https://www.linkedin.com/in/huzaifa-hk/">Contact Me</Button>}
         />
         <ServiceCard
           icon={"/services/ecom-web.png"}
           title="E-commerce Web App"
-          button={<Button href="https://www.youtube.com/">Contact Me</Button>}
+          button={<Button href="https://www.linkedin.com/in/huzaifa-hk/">Contact Me</Button>}
         />
         <ServiceCard
           icon={"/services/frontend-dev.png"}
           title="Frontend Development"
-          button={<Button href="https://www.youtube.com/">Contact Me</Button>}
+          button={<Button href="https://www.linkedin.com/in/huzaifa-hk/">Contact Me</Button>}
         />
 
         <ServiceCard
           icon={"/services/data-analysis.png"}
           title="Data Scraping & Analysis"
-          button={<Button href="https://www.youtube.com/">Contact Me</Button>}
+          button={<Button href="https://www.linkedin.com/in/huzaifa-hk/">Contact Me</Button>}
         />
         <ServiceCard
           icon={"/services/data-viz.png"}
           title="Data Visualization"
-          button={<Button href="https://www.youtube.com/">Contact Me</Button>}
+          button={<Button href="https://www.linkedin.com/in/huzaifa-hk/">Contact Me</Button>}
         />
         <ServiceCard
           icon={"/services/ml-model.png"}
           title="ML Model Development"
-          button={<Button href="https://www.youtube.com/">Contact Me</Button>}
+          button={<Button href="https://www.linkedin.com/in/huzaifa-hk/">Contact Me</Button>}
         />
       </div>
     </section>
