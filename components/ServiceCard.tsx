@@ -14,7 +14,7 @@ const ServiceCard: FC<ServiceCardProps> = ({ icon, title, button }) => {
         <div className="relative w-32 h-28">
           <Image src={icon} fill={true} alt="service icon" />
         </div>
-        <h3 className="text-white pt-5 pb-2 text-center overflow-hidden whitespace-nowrap overflow-ellipsis">{title}</h3>
+        <h3 className="text-white pt-5 smbil:text-lg laptop:text-2xl pt-3 font-headingFont pb-2 text-center overflow-hidden whitespace-nowrap overflow-ellipsis">{title}</h3>
         {button}
       </div>
     </div>

@@ -20,7 +20,7 @@ const PortfolioCard: React.FC<Props> = ({
         <Image src={imageSrc} alt={title} layout="fill" objectFit="cover" />
       </div>
       <div className="absolute inset-0 flex flex-col items-center justify-end bg-black bg-opacity-70 backdrop-blur-md opacity-0 group-hover:opacity-100 transition-opacity">
-        <h2 className="text-white mb-32 truncate">{title}</h2>
+        <h2 className="text-white mb-32 truncate smbil:text-lg laptop:text-2xl pt-3 font-headingFont">{title}</h2>
         <div className="flex space-x-4 mb-5">
           {ButtonComponent1}
           {ButtonComponent2}
