@@ -8,7 +8,7 @@ export default function Portfolio() {
       <div className="grid smbil:grid-cols-1 tab:grid-cols-2 laptop:grid-cols-3 gap-5">
         <PortfolioCard
           imageSrc="/portfolio/genius.png"
-          title="Apple"
+          title="Genius"
           ButtonComponent1={
             <Button href="https://genius-eta.vercel.app/">View Project</Button>
           }
