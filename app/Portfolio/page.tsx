@@ -7,13 +7,13 @@ export default function Portfolio() {
       <h1 className="smbil:text-3xl text-white pb-28 font-headingFont mmbil:text-4xl laptop:text-6xl font-extrabold">My Previous Projects</h1>
       <div className="grid smbil:grid-cols-1 tab:grid-cols-2 laptop:grid-cols-3 gap-5">
         <PortfolioCard
-          imageSrc="/portfolio/apple.png"
+          imageSrc="/portfolio/genius.png"
           title="Apple"
           ButtonComponent1={
-            <Button href="https://apple-next-js-tailwind-css.vercel.app/">View Project</Button>
+            <Button href="https://genius-eta.vercel.app/">View Project</Button>
           }
           ButtonComponent2={
-            <Button href="https://github.com/HHuzaifa/Apple-Next.Js-TailwindCSS">View Code</Button>
+            <Button href="https://github.com/HHuzaifa/Generative-AI-SAAS-Platform">View Code</Button>
           }
         />
         <PortfolioCard
@@ -67,13 +67,13 @@ export default function Portfolio() {
           }
         />
         <PortfolioCard
-          imageSrc="/coming-soon.jpg"
-          title="My Project"
+          imageSrc="/portfolio/apple.png"
+          title="Apple"
           ButtonComponent1={
-            <Button href="https://github.com/HHuzaifa">View Project</Button>
+            <Button href="https://apple-next-js-tailwind-css.vercel.app/">View Project</Button>
           }
           ButtonComponent2={
-            <Button href="https://github.com/HHuzaifa">View Code</Button>
+            <Button href="https://github.com/HHuzaifa/Apple-Next.Js-TailwindCSS">View Code</Button>
           }
         />
         <PortfolioCard
@@ -96,6 +96,8 @@ export default function Portfolio() {
             <Button href="https://github.com/HHuzaifa">View Code</Button>
           }
         />
+        
+        
       </div>
     </section>
   );
