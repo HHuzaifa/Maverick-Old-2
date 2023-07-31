@@ -6,6 +6,16 @@ export default function Portfolio() {
     <section id="PortfolioSection" className="w-full h-full py-28 flex flex-col justify-center items-center mx-auto smbil:max-w-[290px] mmbil:max-w-[340px]  lmbil:max-w-[380px] tab:max-w-[670px] laptop:max-w-[980px] laptop-lg:max-w-[1180px] 4k:max-w-[2000px]">
       <h1 className="smbil:text-3xl text-white pb-28 font-headingFont mmbil:text-4xl laptop:text-6xl font-extrabold">My Previous Projects</h1>
       <div className="grid smbil:grid-cols-1 tab:grid-cols-2 laptop:grid-cols-3 gap-5">
+      <PortfolioCard
+          imageSrc="/portfolio/movix.png"
+          title="Movix"
+          ButtonComponent1={
+            <Button href="https://movix-two-opal.vercel.app/">View Project</Button>
+          }
+          ButtonComponent2={
+            <Button href="https://github.com/HHuzaifa/Movix-React">View Code</Button>
+          }
+        />
         <PortfolioCard
           imageSrc="/portfolio/genius.png"
           title="Genius"
@@ -76,16 +86,7 @@ export default function Portfolio() {
             <Button href="https://github.com/HHuzaifa/Apple-Next.Js-TailwindCSS">View Code</Button>
           }
         />
-        <PortfolioCard
-          imageSrc="/coming-soon.jpg"
-          title="My Project"
-          ButtonComponent1={
-            <Button href="https://github.com/HHuzaifa">View Project</Button>
-          }
-          ButtonComponent2={
-            <Button href="https://github.com/HHuzaifa">View Code</Button>
-          }
-        />
+        
         <PortfolioCard
           imageSrc="/coming-soon.jpg"
           title="My Project"
