@@ -12,6 +12,18 @@ export default function Portfolio() {
       </h1>
       <div className="grid smbil:grid-cols-1 tab:grid-cols-2 laptop:grid-cols-3 gap-5">
         <PortfolioCard
+          imageSrc="/portfolio/ReDesigner.png"
+          title="ReDesigner"
+          ButtonComponent1={
+            <Button href="https://redesginer.vercel.app/">View Project</Button>
+          }
+          ButtonComponent2={
+            <Button href="https://github.com/HHuzaifa/ReDesginer-Next.js-Replicate-AI">
+              View Code
+            </Button>
+          }
+        />
+        <PortfolioCard
           imageSrc="/portfolio/movix.png"
           title="Movix"
           ButtonComponent1={
@@ -119,17 +131,6 @@ export default function Portfolio() {
             <Button href="https://github.com/HHuzaifa/Apple-Next.Js-TailwindCSS">
               View Code
             </Button>
-          }
-        />
-
-        <PortfolioCard
-          imageSrc="/coming-soon.jpg"
-          title="My Project"
-          ButtonComponent1={
-            <Button href="https://github.com/HHuzaifa">View Project</Button>
-          }
-          ButtonComponent2={
-            <Button href="https://github.com/HHuzaifa">View Code</Button>
           }
         />
       </div>
