@@ -12,7 +12,7 @@ export default function Portfolio() {
       </h1>
       <div className="grid smbil:grid-cols-1 tab:grid-cols-2 laptop:grid-cols-3 gap-5">
         <PortfolioCard
-          imageSrc="/portfolio/ReDesigner.png"
+          imageSrc="/portfolio/Redesigner.png"
           title="ReDesigner"
           ButtonComponent1={
             <Button href="https://redesginer.vercel.app/">View Project</Button>
